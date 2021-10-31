@@ -237,11 +237,6 @@ nav a:last-child {
   line-height: 2;
 }
 
-.macbook {
-  height: 700px;
-  width: 100%;
-}
-
 .yellow__bar {
   position: absolute;
   background: #ffffff;
@@ -269,10 +264,6 @@ nav a:last-child {
 @media screen and (max-width: 768px) {
   .experience__grid {
     grid-template-columns: 1fr;
-  }
-
-  .macbook {
-    display: none;
   }
 
   .yellow__bar {
