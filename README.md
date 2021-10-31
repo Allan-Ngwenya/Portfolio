@@ -1,4 +1,4 @@
-# Mbongeni Allan Ngwenya - Portfolio 
+# Portfolio 
 
 ## About
 
