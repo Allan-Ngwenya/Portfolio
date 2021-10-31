@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-	   <!-- navbar that redirects to the relevant sections of the website -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- navbar that redirects to the relevant sections of the website -->
   <header>
     <h1>Mbongeni Allan Ngwenya - Full-Stack Javascript Developer</h1>
     <nav>
@@ -15,123 +17,161 @@
       <a href="#work">Work</a>
       <a href="#contact">Contact Me</a>
       <!-- Link to my resume, it will download locally upon click -->
-      <a href="Personal statement - Allan Ngwenya.docx">Resume</a>
+      <a href="Updated CV - Mbongeni Allan Ngwenya.docx">Resume</a>
     </nav>
-	 </header>
-    <div class="hero__section">
-      <div class="hero__wrapper">
-        <div class="column__left">
-          <h1>Hello World</h1>
-		  <h1> Welcome to my Full-Stack developer portfolio</h1> <!-- Mt hero/banner that the user will be greeted with as soon as they visit my website portfolio -->
+  </header>
+  <div class="hero__section">
+    <div class="hero__wrapper">
+      <div class="column__left">
+        <h1>Hello World</h1>
+        <h1> Welcome to my Full-Stack developer portfolio</h1>
+        <!-- Mt hero/banner that the user will be greeted with as soon as they visit my website portfolio -->
+      </div>
+      <div class="column__right">
+        <img src="images/code-brackets-hero-image02.jpg" alt="image of code brackets" class="hero__img" />
+      </div>
+    </div>
+  </div>
+  <!-- About Section -->
+  <div class="main__section" id="about">
+    <div class="main__container">
+      <h1>My name is Mbongeni Allan Ngwenya</h1>
+      <div class="main__content">
+        <div class="main__text">
+          <h2>
+            I am a training Full-Stack Javascript developer with cloud experience.
+          </h2>
+          <p>
+            Learning about new technology and training to improve my skilset is something that I enjoy and take pride in
+            doing. My tenacious drive and
+            curiosity has recently lead me to embark on the journey of becoming a Full-Stack Javascript developer. I
+            hope to combine the experience that I have
+            working in cloud with some solid programming skills to become an all round engineer. Follow me on this
+            journey and check out the cool projects I have
+            put together!
+          </p>
         </div>
-        <div class="column__right">
-          <img src="images/code-brackets-hero-image02.jpg" alt="image of code brackets" class="hero__img" /> 
+        <div class="main__image">
+          <img src="images/my-profile-image.jpg" alt="my profile picture" class="main__img" />
+          <!-- A profile image of myself so the user can put a name to the face -->
         </div>
       </div>
     </div>
-    <!-- About Section -->
-    <div class="main__section" id="about">
-      <div class="main__container">
-        <h1>My name is Mbongeni Allan Ngwenya</h1>
-        <div class="main__content">
-          <div class="main__text">
-            <h2>
-			      I am a training Full-Stack Javascript developer with cloud experience.
-            </h2>
-            <p>
-            Learning about new technology and training to improve my skilset is something that I enjoy and take pride in doing. My tenacious drive and
-            curiosity has recently lead me to embark on the journey of becoming a Full-Stack Javascript developer. I hope to combine the experience that I have
-            working in cloud with some solid programming skills to become an all round engineer. Follow me on this journey and check out the cool projects I have 
-            put together! 
-            </p>
-          </div>
-          <div class="main__image">
-            <img src="images/my-profile-image.jpg" alt="my profile picture" class="main__img" /> <!-- A profile image of myself so the user can put a name to the face -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- experience Section -->
-    <div class="experience" id="work"> <!-- I have added the ID attribute to add functionality to my navbar-->
-      <div class="experience__container">
-        <h1>Most Recent Work Experience</h1>
-        <div class="experience__grid">
-          <div class="experience__left"> <!-- I have named my classes accordingly to the position of the content/flex container and what the content is -->
-            <div class="experience__content">
-              <div class="experience__desc">
-                <h2>From the start of my career in IT I have challenged myself to be an engineer with great technical abilities, review my most recent experiences below. I am currently woking at Barclays
-                  as a Public Cloud Deployment developer, as my role takes more shape I will add details below.
-                </h2>
-              </div>
+  </div>
+  <!-- experience Section -->
+  <div class="experience" id="work">
+    <!-- I have added the ID attribute to add functionality to my navbar-->
+    <div class="experience__container">
+      <h1>Most Recent Work Experience</h1>
+      <div class="experience__grid">
+        <div class="experience__left">
+          <!-- I have named my classes accordingly to the position of the content/flex container and what the content is -->
+          <div class="experience__content">
+            <div class="experience__desc">
+              <h2>From the start of my career in IT I have challenged myself to be an engineer with great technical
+                abilities, review my most recent experiences below. I am currently woking at Barclays
+                as a Public Cloud Deployment developer, as my role takes more shape I will add details below.
+              </h2>
             </div>
-            <div class="experience__content">
-              <div class="work__lloydsSRE"> <!-- div's were created here as I hope to add an image that I can manipulate in relation to this div class in CSS -->
-                <h2>Lloyds Banking Group - Public Cloud Site Reliability Engineer (July 2019 -August 2020)</h2>
-                <p>
-				        My interest in cloud computing and the implications of network security at the virtualisation level is something that drew me towards the role. Working in a big team with constant workflow means that on a regular basis I am learning new concepts and learning how to carry out a range of different tasks. As a young man in the early years of his IT career, I see the importance in developing my technical skills and stretching myself at every opportunity. My technical ability has improved at Lloyds Public Cloud, due to my constant involvement in; the provisioning different types of infrastructure (Virtual machines, Storage accounts and key vaults) with a range of industry recognised tools for compliance and automation. On a day to day basis I also build CI/CD pipelines, create/implement network security group rules, complete whitelist requests and work closely with industry recognised monitoring tools for cloud platforms. My management skills in a cloud engineering context are also strong, which is something I demonstrate at Lloyds Banking Group by handling our Vulnerabilities, SOC interactions.
-                </p>
-              </div>
+          </div>
+          <div class="experience__content">
+            <div class="work__lloydsSRE">
+              <!-- div's were created here as I hope to add an image that I can manipulate in relation to this div class in CSS -->
+              <h2>Lloyds Banking Group - Public Cloud Site Reliability Engineer (July 2019 -August 2020)</h2>
+              <p>
+                My interest in cloud computing and the implications of network security at the virtualisation level is
+                something that drew me towards the role. Working in a big team with constant workflow means that on a
+                regular basis I am learning new concepts and learning how to carry out a range of different tasks. As a
+                young man in the early years of his IT career, I see the importance in developing my technical skills
+                and stretching myself at every opportunity. My technical ability has improved at Lloyds Public Cloud,
+                due to my constant involvement in; the provisioning different types of infrastructure (Virtual machines,
+                Storage accounts and key vaults) with a range of industry recognised tools for compliance and
+                automation. On a day to day basis I also build CI/CD pipelines, create/implement network security group
+                rules, complete whitelist requests and work closely with industry recognised monitoring tools for cloud
+                platforms. My management skills in a cloud engineering context are also strong, which is something I
+                demonstrate at Lloyds Banking Group by handling our Vulnerabilities, SOC interactions.
+              </p>
             </div>
-            <div class="experience__content">
-              <div class="work__lloydsJava"> <!-- div's were created here as I hope to add an image that I can manipulate in relation to this div class in CSS -->
-                <h2>Lloyds Banking Group - Junior Java Developer</h2>
-                <p>
-				        Working at my previous lab has taught me how to be resilient in tough situations, calm in tense scenarios and how to work and learn simultaneously. My technical skills have been sharpened during my time at this Lloyds lab as on a day to day basis I was shadowing senior Java programmers and also developing/ testing code. My knowledge of the software development life cycle and agile development has grown at my time working as Junior Java developer. As an apprentice at Lloyds it was important to have an in-depth overview of what you're working towards as a developer, which is why I was also involved in IT architecture plans.
-                </p>
-              </div>
-            </div> <!-- a lot of div's have been used here, some could be inline elemnts and so could be span or simply static '-->
           </div>
-        </div>
-      </div>
-      <div class="yellow__bar">
-        <p>GitHub Repository</p>
-        <span>https://github.com/Allan-Ngwenya</span> <!-- span elements have been used as it is an inline element that can be on a line with other elements, thus making it easier to style and format. -->
-      </div>
-    </div>
-    <!-- Portfolio Section -->
-    <div class="portfolio">
-      <div class="portfolio__container">
-        <h1>Portfolio</h1>
-        <div class="portfolio__main">
-          <div class="portfolio__left">
-            <img
-              src="images/TicTacToe-main-portfoli-project.png"
-              alt="main_portfolio_project"
-              class="portfolio__img"/>
+          <div class="experience__content">
+            <div class="work__lloydsJava">
+              <!-- div's were created here as I hope to add an image that I can manipulate in relation to this div class in CSS -->
+              <h2>Lloyds Banking Group - Junior Java Developer</h2>
+              <p>
+                Working at my previous lab has taught me how to be resilient in tough situations, calm in tense
+                scenarios and how to work and learn simultaneously. My technical skills have been sharpened during my
+                time at this Lloyds lab as on a day to day basis I was shadowing senior Java programmers and also
+                developing/ testing code. My knowledge of the software development life cycle and agile development has
+                grown at my time working as Junior Java developer. As an apprentice at Lloyds it was important to have
+                an in-depth overview of what you're working towards as a developer, which is why I was also involved in
+                IT architecture plans.
+              </p>
+            </div>
           </div>
-          <div class="portfolio__right">
-            <h2>Tic-Tac-Toe</h2>
-            <p>One of my first big projects using Javascript was Tic-Tac-Toe, a game which I made using HTML for the UI structure, CSS to make it look good 
-				    and Javascript to handle the games logic. For more information on how I executed this project visit <a href="https://dev.to/bornasepic/pure-and-simple-tic-tac-toe-with-javascript-4pgn" target=”_blank” style="color:rgb(240, 10, 10)">Dev.to</a>
-            </p>
-			<h2>Intercative Map</h2>
-			<p>My intractive Javscript map has some similar dynamic attributes to Google Maps, such as the ability to zoom in and out of locations.
-				The game will be made using Javascripts framework JQuery to help familiarise myself with one of the most widely used libaries of code. If you'd like to have a try, visit <a href="https://codepen.io/aomyers/pen/LWOwpR" target=”_blank” style="color:rgb(240, 10, 10)">Codepen</a> 
-			</p>
-			<h2>To-Do List</h2>
-			<p>Javascript is widely used in large organisations, and one of the roles I may find mysef in could require handling large amounts of user data a bit like the 'To-Do list' program.Test out your skills and stay organised! Visit <a href="https://codepen.io/JohnPaulFich/pen/MXmzzM" target=”_blank” style="color:rgb(240, 10, 10)">Codepen</a> 
-			</p>
-          </div>
-        </div>
-        <div class="portfolio__projects">
-          <img src="images/interactive-map-project.png" alt="portfolio" />
-          <img src="images/to-do-list-project.png" alt="portfolio" />
+          <!-- a lot of div's have been used here, some could be inline elemnts and so could be span or simply static '-->
         </div>
       </div>
     </div>
-    <!-- Contact Section -->
-    <div class="contact" id="contact">
-      <div class="contact__bar">
-        <p>Email</p>
-        <span>mbongeniallanngwenya@hotmail.co.uk</span> <!-- span elements have been used as it is an inline element that can be on a line with other elements, thus making it easier to style and format. -->
-		<p>Facebook</p>
-		<span>Mbongeni Allan Ngwenya</span> <!-- span elements have been used as it is an inline element that can be on a line with other elements, thus making it easier to style and format. -->
-		<p>Linkedin</p>
-		<span>https://www.linkedin.com/in/mbongeni-allan-ngwenya-220375170/</span> <!-- span elements have been used as it is an inline element that can be on a line with other elements, thus making it easier to style and format. -->
-      </div>
-      <h1>Contact Me</h1>
+    <div class="yellow__bar">
+      <p>GitHub Repository</p>
+      <span>https://github.com/Allan-Ngwenya</span>
+      <!-- span elements have been used as it is an inline element that can be on a line with other elements, thus making it easier to style and format. -->
     </div>
+  </div>
+  <!-- Portfolio Section -->
+  <div class="portfolio">
+    <div class="portfolio__container">
+      <h1>Portfolio</h1>
+      <div class="portfolio__main">
+        <div class="portfolio__left">
+          <img src="images/TicTacToe-main-portfoli-project.png" alt="main_portfolio_project" class="portfolio__img" />
+        </div>
+        <div class="portfolio__right">
+          <h2>Tic-Tac-Toe</h2>
+          <p>One of my first big projects using Javascript was Tic-Tac-Toe, a game which I made using HTML for the UI
+            structure, CSS to make it look good
+            and Javascript to handle the games logic. For more information on how I executed this project visit <a
+              href="https://dev.to/bornasepic/pure-and-simple-tic-tac-toe-with-javascript-4pgn" target=”_blank”
+              style="color:rgb(240, 10, 10)">Dev.to</a>
+          </p>
+          <h2>Intercative Map</h2>
+          <p>My intractive Javscript map has some similar dynamic attributes to Google Maps, such as the ability to zoom
+            in and out of locations.
+            The game will be made using Javascripts framework JQuery to help familiarise myself with one of the most
+            widely used libaries of code. If you'd like to have a try, visit <a
+              href="https://codepen.io/aomyers/pen/LWOwpR" target=”_blank” style="color:rgb(240, 10, 10)">Codepen</a>
+          </p>
+          <h2>To-Do List</h2>
+          <p>Javascript is widely used in large organisations, and one of the roles I may find mysef in could require
+            handling large amounts of user data a bit like the 'To-Do list' program.Test out your skills and stay
+            organised! Visit <a href="https://codepen.io/JohnPaulFich/pen/MXmzzM" target=”_blank”
+              style="color:rgb(240, 10, 10)">Codepen</a>
+          </p>
+        </div>
+      </div>
+      <div class="portfolio__projects">
+        <img src="images/interactive-map-project.png" alt="portfolio" />
+        <img src="images/to-do-list-project.png" alt="portfolio" />
       </div>
     </div>
-  </body>
+  </div>
+  <!-- Contact Section -->
+  <div class="contact" id="contact">
+    <div class="contact__bar">
+      <p>Email</p>
+      <span>mbongeniallanngwenya@hotmail.co.uk</span>
+      <!-- span elements have been used as it is an inline element that can be on a line with other elements, thus making it easier to style and format. -->
+      <p>Facebook</p>
+      <span>Mbongeni Allan Ngwenya</span>
+      <!-- span elements have been used as it is an inline element that can be on a line with other elements, thus making it easier to style and format. -->
+      <p>Linkedin</p>
+      <span>https://www.linkedin.com/in/mbongeni-allan-ngwenya-220375170/</span>
+      <!-- span elements have been used as it is an inline element that can be on a line with other elements, thus making it easier to style and format. -->
+    </div>
+    <h1>Contact Me</h1>
+  </div>
+  </div>
+  </div>
+</body>
+
 </html>
