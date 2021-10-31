@@ -5,7 +5,7 @@ nav {
 }
 
 nav a {
-  text-decoration: none;
+  text-decoration: underline;
   padding: 5px 10px;
   color: #002ed0;
   margin-right: 10px;
